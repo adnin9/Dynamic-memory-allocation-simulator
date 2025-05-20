@@ -187,7 +187,6 @@ void reset() {
     blocks[0].start = 0;
     blocks[0].size = MEMORY_SIZE;
     blocks[0].is_free = true;
-    printf("Memory allocator reset.\n\n");
 }
 
 void handle_leaks() {

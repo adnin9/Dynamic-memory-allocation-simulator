@@ -17,7 +17,7 @@ void* my_malloc(int size);
 void my_free(void* ptr);
 void* my_realloc(void* ptr, int new_size);
 void defragment_memory();
-void check_for_leaks();
+void handle_leaks();
 void cleanup_memory();
 void reset();
 void print_memory_layout();
